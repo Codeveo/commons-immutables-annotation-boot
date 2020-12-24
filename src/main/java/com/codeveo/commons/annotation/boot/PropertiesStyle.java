@@ -26,7 +26,7 @@ import org.springframework.context.annotation.Configuration;
         jdkOnly = true,
         create = "new",
         validationMethod = Value.Style.ValidationMethod.NONE,
-        defaults = @Value.Immutable(builder = false, copy = false),
+        defaults = @Value.Immutable(builder = false),
         passAnnotations = {Configuration.class, ConfigurationProperties.class})
 public @interface PropertiesStyle {
 }
