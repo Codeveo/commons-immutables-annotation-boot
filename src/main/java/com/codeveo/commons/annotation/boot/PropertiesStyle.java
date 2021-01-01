@@ -22,7 +22,6 @@ import org.springframework.context.annotation.Configuration;
 
 @Value.Style(typeModifiable = "*Impl",
         beanFriendlyModifiables = true,
-        visibility = Value.Style.ImplementationVisibility.PACKAGE,
         jdkOnly = true,
         create = "new",
         validationMethod = Value.Style.ValidationMethod.NONE,
